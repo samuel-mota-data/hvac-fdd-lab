@@ -5,7 +5,7 @@ Diagnóstico e prognóstico de falhas em ar-condicionado **só com medição el�
 | Fase | O quê | Onde |
 |---|---|---|
 | 1 | Análise do dataset elétrico real da UFPB (9 condições, 30 kHz): quais features separam as falhas, e o teste de confusão por sessão | `src/hvac_fdd/`, [NOTAS_FASE1.md](NOTAS_FASE1.md) |
-| 2 | Gêmeo digital do split (R410A + motor PSC) calibrado com a UFPB: falhas injetadas, proteção do compressor, prognóstico | painel interativo em samuel.simia.digital/lab |
+| 2 | Gêmeo digital do split (R410A + motor PSC) calibrado com a UFPB: falhas injetadas, proteção do compressor, prognóstico | painel em https://samuel.simia.digital/lab · código em https://github.com/samuel-mota-data/samuel-site/tree/main/src/lib/hvac |
 
 ## Rodar a fase 1
 
