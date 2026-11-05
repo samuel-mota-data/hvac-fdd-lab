@@ -1,0 +1,10 @@
+[project]
+name = "hvac-fdd-lab"
+version = "0.1.0"
+description = "Diagnóstico de falhas em refrigeração só com medição elétrica não invasiva"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

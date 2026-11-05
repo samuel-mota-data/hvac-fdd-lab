@@ -1,0 +1,7 @@
+data/raw/*.txt
+data/raw/*.zip
+__pycache__/
+.venv/
+mlruns/
+data/interim/
+.pytest_cache/
